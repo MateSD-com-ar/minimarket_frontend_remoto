@@ -13,7 +13,6 @@ const Checkout = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [saleDetail, setSaleDetails] = useState([]);
   const [additionalProducts, setAdditionalProducts] = useState([]);
-  const navigate = useNavigate()
   const { id } = useParams()
   const initialAdditionalProducts = [
     { icon: <LuVegan className='text-xl' />, idProduct: 2, name: "Verduleria", brand: "Verduleria", price: 'price', roleProduct: "Verduleria", unitMeasure: "", stock: 0 },

@@ -41,7 +41,7 @@ const Login = () => {
 
   return (
     <div className='flex flex-col items-center bg-slate-600 w-full h-screen gap-7'>
-      <h1 className='text-2xl'>BIENVENIDOS</h1>
+      <h1 className='text-2xl'>HOLA MUNDO</h1>
       {error && <p className='text-red-500' aria-live="assertive">{error}</p>}
       <form className='flex flex-col gap-2 uppercase text-start' onSubmit={handleLoginAxios}>
         <label htmlFor="username">Usuario</label>
