@@ -15,7 +15,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          cd minimarket_virgen_lourdes_frontend  # Cambia esto al directorio correcto de tu frontend
+          cd Saas_Virgen_de_Lourdes  # Cambia esto al directorio correcto de tu frontend
           docker build -t minimarket-front:latest .
 
       - name: Set up known hosts
